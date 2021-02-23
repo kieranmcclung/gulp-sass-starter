@@ -3,7 +3,7 @@ This is my current go-to web project starter and you're more than welcome to use
 
 ## Usage
 1. Clone the repo
-2. Run `npm-install`
+2. Run `npm install`
 3. Run `gulp watch` to check for SASS/JS changes
 4. Draw the rest of the owl
 
@@ -14,6 +14,9 @@ The `gulpfile.js` file is as basic as it comes but there are a couple of options
 You can change the `outputDirectory` to whatever you like. I use this when I'm switching between WordPress and non-WordPress projects. 
 
 You can change the `sassOptions` object as outlined here: https://github.com/sass/node-sass#options
+
+### HTML
+The `index.html` file is fairly bare bones but make sure to change the html lang attribute if you're site's primary content isn't in UK English.
 
 ### JavaScript
 The main `script.js` file is set up with jQuery use in mind. Scrap all of that if you're a purist. 
